@@ -17,7 +17,5 @@
 
 mac = "AAAA:BBBB:CCCC"
 m16 = mac.replace(":","")
-print(m16)
-m2 = bin(int(m16,16))
-
+m2 = bin(int(m16, 16))
 print(m2[2:])
