@@ -13,7 +13,14 @@ MAC-адреса используются в формате XXXX.XXXX.XXXX
 """
 
 mac = ["aabb:cc80:7000", "aabb:dd80:7340", "aabb:ee80:7000", "aabb:ff80:7000"]
-result0 = ' '.join(mac)
-result1 = result0.replace(":", ".")
-result = result1.split()
-print(result)
+
+blabla = ' '.join(mac).replace(":", ".").split()
+print(blabla)
+print(mac)
+
+# ['aabb.cc80.7000', 'aabb.dd80.7340', 'aabb.ee80.7000', 'aabb.ff80.7000']
+# save nr 2
+>>>>>>> ccde3e44a470d262c379987cefc37e7f2ba166ff
+
+# ['aabb.cc80.7000', 'aabb.dd80.7340', 'aabb.ee80.7000', 'aabb.ff80.7000']
+# save nr 2

@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from pprint import pprint
 """
 Задание 4.1
 
@@ -20,3 +21,5 @@ nat = "ip nat inside source list ACL interface FastEthernet0/1 overload"
 # print(nat)
 nat = nat.replace("Fast", "Giga")
 print(nat)
+pprint(nat)
+
